@@ -2,5 +2,18 @@
   pbrmaterial.h is deprecated. Please update to PBR materials in materials.h and glTF-specific items in GltfMaterial.h
   The contents of <filesystem> are available only with C++17 or later.
 C:\Users\firef\Documents\CodeDump\AJGL-866e9ea457f5bb9ac47092ebd06df0653fbf575e\AJGL-866e9ea457f5bb9ac47092ebd06df0653fbf575e\Graphics\AJGL\AJGL.cpp(47,21): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
-C:\Users\firef\Documents\CodeDump\AJGL-866e9ea457f5bb9ac47092ebd06df0653fbf575e\AJGL-866e9ea457f5bb9ac47092ebd06df0653fbf575e\Graphics\AJGL\AJGL.cpp(158,29): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\firef\Documents\CodeDump\AJGL-866e9ea457f5bb9ac47092ebd06df0653fbf575e\AJGL-866e9ea457f5bb9ac47092ebd06df0653fbf575e\Graphics\AJGL\AJGL.cpp(163,29): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  Mesh.cpp
+  pbrmaterial.h is deprecated. Please update to PBR materials in materials.h and glTF-specific items in GltfMaterial.h
+C:\Users\firef\Documents\CodeDump\AJGL-866e9ea457f5bb9ac47092ebd06df0653fbf575e\AJGL-866e9ea457f5bb9ac47092ebd06df0653fbf575e\Graphics\AJGL\Mesh.cpp(72,127): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\firef\Documents\CodeDump\AJGL-866e9ea457f5bb9ac47092ebd06df0653fbf575e\AJGL-866e9ea457f5bb9ac47092ebd06df0653fbf575e\Graphics\AJGL\Mesh.cpp(72,127): warning C4267: 'initializing': conversion from 'size_t' to 'const int', possible loss of data
+C:\Users\firef\Documents\CodeDump\AJGL-866e9ea457f5bb9ac47092ebd06df0653fbf575e\AJGL-866e9ea457f5bb9ac47092ebd06df0653fbf575e\Graphics\AJGL\Mesh.cpp(108,65): warning C4267: 'argument': conversion from 'size_t' to 'GLsizei', possible loss of data
+  Model.cpp
+  pbrmaterial.h is deprecated. Please update to PBR materials in materials.h and glTF-specific items in GltfMaterial.h
+  PBRHelper.cpp
+  pbrmaterial.h is deprecated. Please update to PBR materials in materials.h and glTF-specific items in GltfMaterial.h
+C:\Users\firef\Documents\CodeDump\AJGL-866e9ea457f5bb9ac47092ebd06df0653fbf575e\AJGL-866e9ea457f5bb9ac47092ebd06df0653fbf575e\Graphics\AJGL\PBRHelper.cpp(167,31): warning C4244: 'initializing': conversion from 'double' to 'unsigned int', possible loss of data
+  Shader.cpp
+  Generating Code...
+LINK : warning LNK4098: defaultlib 'MSVCRT' conflicts with use of other libs; use /NODEFAULTLIB:library
   AJGL.vcxproj -> C:\Users\firef\Documents\CodeDump\AJGL-866e9ea457f5bb9ac47092ebd06df0653fbf575e\AJGL-866e9ea457f5bb9ac47092ebd06df0653fbf575e\Graphics\x64\Debug\AJGL.exe

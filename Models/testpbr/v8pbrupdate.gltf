@@ -1,0 +1,252 @@
+{
+    "asset": {
+        "copyright": "(C)2023 firef",
+        "generator": "maya2glTF main fbbc95e5dc4d",
+        "version": "2.0"
+    },
+    "scenes": [
+        {
+            "nodes": [
+                0
+            ]
+        }
+    ],
+    "scene": 0,
+    "nodes": [
+        {
+            "name": "pSphere37",
+            "mesh": 0,
+            "translation": [
+                5.724470615386963,
+                10.011062622070313,
+                2.2103159427642824
+            ],
+            "scale": [
+                3.060420036315918,
+                3.060420036315918,
+                3.060420036315918
+            ]
+        }
+    ],
+    "meshes": [
+        {
+            "name": "pSphereShape37",
+            "extras": {
+                "targetNames": []
+            },
+            "primitives": [
+                {
+                    "attributes": {
+                        "NORMAL": 1,
+                        "POSITION": 2,
+                        "TANGENT": 3,
+                        "TEXCOORD_0": 4
+                    },
+                    "indices": 0,
+                    "mode": 4,
+                    "material": 0
+                }
+            ]
+        }
+    ],
+    "materials": [
+        {
+            "name": "GLSLShader1",
+            "pbrMetallicRoughness": {
+                "baseColorFactor": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                ],
+                "baseColorTexture": {
+                    "index": 0
+                },
+                "metallicFactor": 0.0,
+                "roughnessFactor": 0.5,
+                "metallicRoughnessTexture": {
+                    "index": 1
+                }
+            },
+            "emissiveFactor": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "normalTexture": {
+                "index": 2
+            },
+            "occlusionTexture": {
+                "index": 3
+            }
+        }
+    ],
+    "textures": [
+        {
+            "sampler": 0,
+            "source": 0
+        },
+        {
+            "sampler": 0,
+            "source": 1
+        },
+        {
+            "sampler": 0,
+            "source": 2
+        },
+        {
+            "sampler": 0,
+            "source": 3
+        }
+    ],
+    "images": [
+        {
+            "uri": "Vynil_Padded_001_Base_Color.jpg"
+        },
+        {
+            "uri": "Vynil_Padded_001_Roughness.jpg"
+        },
+        {
+            "uri": "Vynil_Padded_001_Normal.jpg"
+        },
+        {
+            "uri": "Vynil_Padded_001_ambientOcclusion.jpg"
+        }
+    ],
+    "samplers": [
+        {
+            "magFilter": 9729,
+            "minFilter": 9987,
+            "wrapS": 10497,
+            "wrapT": 10497
+        }
+    ],
+    "accessors": [
+        {
+            "name": "pSphereShape37#0/indices",
+            "bufferView": 0,
+            "byteOffset": 0,
+            "componentType": 5123,
+            "count": 2280,
+            "max": [
+                438
+            ],
+            "min": [
+                0
+            ],
+            "type": "SCALAR"
+        },
+        {
+            "name": "pSphereShape37#0/vertices/NORMAL",
+            "bufferView": 1,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 439,
+            "max": [
+                0.9968528151512146,
+                0.9999961853027344,
+                0.9979393482208252
+            ],
+            "min": [
+                -0.9982709288597108,
+                -1.0,
+                -0.9985745549201964
+            ],
+            "type": "VEC3"
+        },
+        {
+            "name": "pSphereShape37#0/vertices/POSITION",
+            "bufferView": 1,
+            "byteOffset": 5268,
+            "componentType": 5126,
+            "count": 439,
+            "max": [
+                0.526012659072876,
+                0.33310335874557497,
+                0.5469629764556885
+            ],
+            "min": [
+                -0.5194679498672485,
+                -1.017747163772583,
+                -0.5200600624084473
+            ],
+            "type": "VEC3"
+        },
+        {
+            "name": "pSphereShape37#0/vertices/TANGENT",
+            "bufferView": 2,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 439,
+            "max": [
+                1.0,
+                0.0835551992058754,
+                0.9999843835830689,
+                1.0
+            ],
+            "min": [
+                -0.9999846816062928,
+                -0.11801578104496002,
+                -0.9999708533287048,
+                1.0
+            ],
+            "type": "VEC4"
+        },
+        {
+            "name": "pSphereShape37#0/vertices/TEXCOORD_0",
+            "bufferView": 3,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 439,
+            "max": [
+                5.739095211029053,
+                5.739094257354736
+            ],
+            "min": [
+                -4.739094734191895,
+                -4.739094257354736
+            ],
+            "type": "VEC2"
+        }
+    ],
+    "bufferViews": [
+        {
+            "name": "v8pbrupdate/data/indices-2",
+            "buffer": 0,
+            "byteOffset": 21072,
+            "byteLength": 4560,
+            "target": 34963
+        },
+        {
+            "name": "v8pbrupdate/data/vertices-12",
+            "buffer": 0,
+            "byteOffset": 7024,
+            "byteLength": 10536,
+            "byteStride": 12,
+            "target": 34962
+        },
+        {
+            "name": "v8pbrupdate/data/vertices-16",
+            "buffer": 0,
+            "byteOffset": 0,
+            "byteLength": 7024,
+            "byteStride": 16,
+            "target": 34962
+        },
+        {
+            "name": "v8pbrupdate/data/vertices-8",
+            "buffer": 0,
+            "byteOffset": 17560,
+            "byteLength": 3512,
+            "byteStride": 8,
+            "target": 34962
+        }
+    ],
+    "buffers": [
+        {
+            "name": "v8pbrupdate/data",
+            "byteLength": 25632,
+            "uri": "v8pbrupdate0.bin"
+        }
+    ]
+}

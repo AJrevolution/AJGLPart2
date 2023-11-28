@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>15.0</VCProjectVersion>
+    <ProjectGuid>{75AB072E-7FE5-4C04-94C2-D52AD55606D5}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>AJGL</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <IncludePath>D:\Documents\Gits\C++ Projects\AJGL\AJGL\Graphics\AJGL\Libraries\includes;C:\Users\firef\Documents\CodeDump\AJGL-866e9ea457f5bb9ac47092ebd06df0653fbf575e\AJGL-866e9ea457f5bb9ac47092ebd06df0653fbf575e\Graphics\AJGL\Libraries\includes;C:\Users\firef\Documents\CodeDump\AJGL-866e9ea457f5bb9ac47092ebd06df0653fbf575e\AJGL-866e9ea457f5bb9ac47092ebd06df0653fbf575e\Graphics\AJGL\Libraries;$(IncludePath)</IncludePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+    <IncludePath>C:\Users\firef\Documents\CodeDump\AJGL-866e9ea457f5bb9ac47092ebd06df0653fbf575e\AJGL-866e9ea457f5bb9ac47092ebd06df0653fbf575e\Graphics\AJGL\Libraries\includes;C:\Users\firef\Documents\CodeDump\AJGL-866e9ea457f5bb9ac47092ebd06df0653fbf575e\AJGL-866e9ea457f5bb9ac47092ebd06df0653fbf575e\Graphics\AJGL\Libraries;$(IncludePath)</IncludePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <IncludePath>D:\Documents\Gits\C++ Projects\AJGL\AJGL\Graphics\AJGL\Libraries\includes;$(IncludePath)</IncludePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+    <IncludePath>D:\Documents\Gits\C++ Projects\AJGL\AJGL\Libraries;$(IncludePath)</IncludePath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>C:\Users\firef\Documents\CodeDump\AJGL-866e9ea457f5bb9ac47092ebd06df0653fbf575e\AJGL-866e9ea457f5bb9ac47092ebd06df0653fbf575e\Graphics\AJGL\Libraries\assimp\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>assimp-vc142-mtd.lib;glfw3.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>C:\Users\firef\Documents\CodeDump\AJGL-866e9ea457f5bb9ac47092ebd06df0653fbf575e\AJGL-866e9ea457f5bb9ac47092ebd06df0653fbf575e\Graphics\AJGL\Libraries\includes;C:\Users\firef\Documents\CodeDump\AJGL-866e9ea457f5bb9ac47092ebd06df0653fbf575e\AJGL-866e9ea457f5bb9ac47092ebd06df0653fbf575e\Graphics\AJGL\Libraries\includes\src;C:\Users\firef\Documents\CodeDump\AJGL-866e9ea457f5bb9ac47092ebd06df0653fbf575e\AJGL-866e9ea457f5bb9ac47092ebd06df0653fbf575e\Graphics\AJGL\Libraries\assimp\lib\Debug;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>C:\Users\firef\Documents\CodeDump\AJGL-866e9ea457f5bb9ac47092ebd06df0653fbf575e\AJGL-866e9ea457f5bb9ac47092ebd06df0653fbf575e\Graphics\AJGL\Libraries\assimp\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>assimp-vc142-mtd.lib;glfw3.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>C:\Users\firef\Documents\CodeDump\AJGL-866e9ea457f5bb9ac47092ebd06df0653fbf575e\AJGL-866e9ea457f5bb9ac47092ebd06df0653fbf575e\Graphics\AJGL\Libraries\includes\x64;C:\Users\firef\Documents\CodeDump\AJGL-866e9ea457f5bb9ac47092ebd06df0653fbf575e\AJGL-866e9ea457f5bb9ac47092ebd06df0653fbf575e\Graphics\AJGL\Libraries\assimp\lib\x64\Debug;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>C:\Users\firef\Documents\Code Dump\AJGL-866e9ea457f5bb9ac47092ebd06df0653fbf575e\AJGL-866e9ea457f5bb9ac47092ebd06df0653fbf575e\Graphics\AJGL\Libraries\assimp\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <SupportJustMyCode>true</SupportJustMyCode>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>assimp-vc140-mt.lib;glfw3.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>C:\Users\firef\Documents\Code Dump\AJGL-866e9ea457f5bb9ac47092ebd06df0653fbf575e\AJGL-866e9ea457f5bb9ac47092ebd06df0653fbf575e\Graphics\AJGL\Libraries\includes;C:\Users\firef\Documents\Code Dump\AJGL-866e9ea457f5bb9ac47092ebd06df0653fbf575e\AJGL-866e9ea457f5bb9ac47092ebd06df0653fbf575e\Graphics\AJGL\Libraries\includes\src;C:\Users\firef\Documents\Code Dump\AJGL-866e9ea457f5bb9ac47092ebd06df0653fbf575e\AJGL-866e9ea457f5bb9ac47092ebd06df0653fbf575e\Graphics\AJGL\Libraries\assimp\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="buildingData.h" />
+    <ClInclude Include="Camera.h" />
+    <ClInclude Include="CubeMap.h" />
+    <ClInclude Include="Framebuffer.h" />
+    <ClInclude Include="Mesh.h" />
+    <ClInclude Include="Model.h" />
+    <ClInclude Include="OpenGLUtils.h" />
+    <ClInclude Include="PBRHelper.h" />
+    <ClInclude Include="PBRTexture.h" />
+    <ClInclude Include="RenderHelper.h" />
+    <ClInclude Include="ResourceManager.h" />
+    <ClInclude Include="Shader.h" />
+    <ClInclude Include="skyboxdata.h" />
+    <ClInclude Include="stb_image.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="targetver.h" />
+    <ClInclude Include="Texture.h" />
+    <ClInclude Include="WindowController.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="AJGL.cpp" />
+    <ClCompile Include="CubeMap.cpp" />
+    <ClCompile Include="Framebuffer.cpp" />
+    <ClCompile Include="Libraries\includes\src\glad.c" />
+    <ClCompile Include="Mesh.cpp" />
+    <ClCompile Include="Model.cpp" />
+    <ClCompile Include="OpenGLUtils.cpp" />
+    <ClCompile Include="PBRHelper.cpp" />
+    <ClCompile Include="PBRTexture.cpp" />
+    <ClCompile Include="RenderHelper.cpp" />
+    <ClCompile Include="ResourceManager.cpp" />
+    <ClCompile Include="Shader.cpp" />
+    <ClCompile Include="stdafx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="WindowController.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ShaderFiles\backgroundHDR.fs.txt" />
+    <Text Include="ShaderFiles\backgroundHDR.vs.txt" />
+    <Text Include="ShaderFiles\bloomfinal.fs.txt" />
+    <Text Include="ShaderFiles\bloomfinal.vs.txt" />
+    <Text Include="ShaderFiles\blur.fs.txt" />
+    <Text Include="ShaderFiles\blur.vs.txt" />
+    <Text Include="ShaderFiles\brdf.fs.txt" />
+    <Text Include="ShaderFiles\brdf.vs.txt" />
+    <Text Include="ShaderFiles\buildingShader.fs.txt" />
+    <Text Include="ShaderFiles\buildingShader.vs.txt" />
+    <Text Include="ShaderFiles\chromedome.fs.txt" />
+    <Text Include="ShaderFiles\chromedome.vs.txt" />
+    <Text Include="ShaderFiles\cubemap.fs.txt" />
+    <Text Include="ShaderFiles\cubemap.vs.txt" />
+    <Text Include="ShaderFiles\debugQuadDepth.fs.txt" />
+    <Text Include="ShaderFiles\debugQuadDepth.vs.txt" />
+    <Text Include="ShaderFiles\fragshader.fc.txt" />
+    <Text Include="ShaderFiles\irradiance.fs.txt" />
+    <Text Include="ShaderFiles\irradiance.vs.txt" />
+    <Text Include="ShaderFiles\lampFrag.fs.txt" />
+    <Text Include="ShaderFiles\lampVertex.vs.txt" />
+    <Text Include="ShaderFiles\PBRShader.fc.txt" />
+    <Text Include="ShaderFiles\PBRShader.vc.txt" />
+    <Text Include="ShaderFiles\preFilter.fs.txt" />
+    <Text Include="ShaderFiles\simpleDepthShader.fs.txt" />
+    <Text Include="ShaderFiles\simpleDepthShader.vs.txt" />
+    <Text Include="ShaderFiles\skyboxShader.fs.txt" />
+    <Text Include="ShaderFiles\skyboxShader.vs.txt" />
+    <Text Include="ShaderFiles\vertexshader.vc.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Libraries\assimp\include\assimp\config.h.in" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

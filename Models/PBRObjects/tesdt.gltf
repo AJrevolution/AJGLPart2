@@ -1,0 +1,258 @@
+{
+    "asset": {
+        "copyright": "(C)2023 firef",
+        "generator": "maya2glTF main fbbc95e5dc4d",
+        "version": "2.0"
+    },
+    "scenes": [
+        {
+            "nodes": [
+                0
+            ]
+        }
+    ],
+    "scene": 0,
+    "nodes": [
+        {
+            "name": "pSphere37",
+            "children": [
+                1
+            ],
+            "translation": [
+                5.734485626220703,
+                8.96341323852539,
+                2.251483201980591
+            ]
+        },
+        {
+            "name": "pSphere37:PIV",
+            "mesh": 0,
+            "translation": [
+                -5.734485626220703,
+                -8.96341323852539,
+                -2.251483201980591
+            ]
+        }
+    ],
+    "meshes": [
+        {
+            "name": "pSphereShape37",
+            "extras": {
+                "targetNames": []
+            },
+            "primitives": [
+                {
+                    "attributes": {
+                        "NORMAL": 1,
+                        "POSITION": 2,
+                        "TANGENT": 3,
+                        "TEXCOORD_0": 4
+                    },
+                    "indices": 0,
+                    "mode": 4,
+                    "material": 0
+                }
+            ]
+        }
+    ],
+    "materials": [
+        {
+            "name": "GLSLShader8",
+            "pbrMetallicRoughness": {
+                "baseColorFactor": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                ],
+                "baseColorTexture": {
+                    "index": 0
+                },
+                "metallicFactor": 0.5,
+                "roughnessFactor": 1.0,
+                "metallicRoughnessTexture": {
+                    "index": 1
+                }
+            },
+            "emissiveFactor": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "normalTexture": {
+                "index": 2
+            },
+            "occlusionTexture": {
+                "index": 3
+            }
+        }
+    ],
+    "textures": [
+        {
+            "sampler": 0,
+            "source": 0
+        },
+        {
+            "sampler": 0,
+            "source": 1
+        },
+        {
+            "sampler": 0,
+            "source": 2
+        },
+        {
+            "sampler": 0,
+            "source": 3
+        }
+    ],
+    "images": [
+        {
+            "uri": "Vynil_Padded_001_Base_Color.jpg"
+        },
+        {
+            "uri": "Vynil_Padded_001_Roughness-Vynil_Padded_001_Metallic.jpg"
+        },
+        {
+            "uri": "Vynil_Padded_001_Normal.jpg"
+        },
+        {
+            "uri": "Vynil_Padded_001_ambientOcclusion.jpg"
+        }
+    ],
+    "samplers": [
+        {
+            "magFilter": 9729,
+            "minFilter": 9987,
+            "wrapS": 10497,
+            "wrapT": 10497
+        }
+    ],
+    "accessors": [
+        {
+            "name": "pSphereShape37#0/indices",
+            "bufferView": 0,
+            "byteOffset": 0,
+            "componentType": 5123,
+            "count": 2280,
+            "max": [
+                438
+            ],
+            "min": [
+                0
+            ],
+            "type": "SCALAR"
+        },
+        {
+            "name": "pSphereShape37#0/vertices/NORMAL",
+            "bufferView": 1,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 439,
+            "max": [
+                0.9968528151512146,
+                0.9999962449073792,
+                0.9979394674301148
+            ],
+            "min": [
+                -0.998270869255066,
+                -1.0,
+                -0.9985746145248412
+            ],
+            "type": "VEC3"
+        },
+        {
+            "name": "pSphereShape37#0/vertices/POSITION",
+            "bufferView": 1,
+            "byteOffset": 5268,
+            "componentType": 5126,
+            "count": 439,
+            "max": [
+                7.334290027618408,
+                11.030498504638672,
+                3.8842525482177736
+            ],
+            "min": [
+                4.13468074798584,
+                6.896328926086426,
+                0.6187137961387634
+            ],
+            "type": "VEC3"
+        },
+        {
+            "name": "pSphereShape37#0/vertices/TANGENT",
+            "bufferView": 2,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 439,
+            "max": [
+                1.0,
+                0.08355466276407242,
+                0.9999843835830689,
+                1.0
+            ],
+            "min": [
+                -0.9999847412109376,
+                -0.118015855550766,
+                -0.9999709129333496,
+                1.0
+            ],
+            "type": "VEC4"
+        },
+        {
+            "name": "pSphereShape37#0/vertices/TEXCOORD_0",
+            "bufferView": 3,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 439,
+            "max": [
+                5.739095211029053,
+                5.739094257354736
+            ],
+            "min": [
+                -4.739094734191895,
+                -4.739094257354736
+            ],
+            "type": "VEC2"
+        }
+    ],
+    "bufferViews": [
+        {
+            "name": "tesdt/data/indices-2",
+            "buffer": 0,
+            "byteOffset": 21072,
+            "byteLength": 4560,
+            "target": 34963
+        },
+        {
+            "name": "tesdt/data/vertices-12",
+            "buffer": 0,
+            "byteOffset": 7024,
+            "byteLength": 10536,
+            "byteStride": 12,
+            "target": 34962
+        },
+        {
+            "name": "tesdt/data/vertices-16",
+            "buffer": 0,
+            "byteOffset": 0,
+            "byteLength": 7024,
+            "byteStride": 16,
+            "target": 34962
+        },
+        {
+            "name": "tesdt/data/vertices-8",
+            "buffer": 0,
+            "byteOffset": 17560,
+            "byteLength": 3512,
+            "byteStride": 8,
+            "target": 34962
+        }
+    ],
+    "buffers": [
+        {
+            "name": "tesdt/data",
+            "byteLength": 25632,
+            "uri": "tesdt0.bin"
+        }
+    ]
+}

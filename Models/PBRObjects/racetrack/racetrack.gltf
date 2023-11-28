@@ -1,0 +1,413 @@
+{
+    "asset": {
+        "copyright": "(C)2023 firef",
+        "generator": "maya2glTF main fbbc95e5dc4d",
+        "version": "2.0"
+    },
+    "scenes": [
+        {
+            "nodes": [
+                0
+            ]
+        }
+    ],
+    "scene": 0,
+    "nodes": [
+        {
+            "name": "pCube1",
+            "children": [
+                1
+            ],
+            "translation": [
+                -4.795385360717773,
+                2.359886169433594,
+                -4.920681953430176
+            ]
+        },
+        {
+            "name": "pCube1:PIV",
+            "mesh": 0,
+            "translation": [
+                4.795385360717773,
+                -2.359886169433594,
+                4.920681953430176
+            ]
+        }
+    ],
+    "meshes": [
+        {
+            "name": "pCubeShape1",
+            "extras": {
+                "targetNames": []
+            },
+            "primitives": [
+                {
+                    "attributes": {
+                        "NORMAL": 1,
+                        "POSITION": 2,
+                        "TANGENT": 3,
+                        "TEXCOORD_0": 4
+                    },
+                    "indices": 0,
+                    "mode": 4,
+                    "material": 0
+                },
+                {
+                    "attributes": {
+                        "NORMAL": 6,
+                        "POSITION": 7,
+                        "TANGENT": 8,
+                        "TEXCOORD_0": 9
+                    },
+                    "indices": 5,
+                    "mode": 4,
+                    "material": 1
+                }
+            ]
+        }
+    ],
+    "materials": [
+        {
+            "name": "asphaltgltf",
+            "pbrMetallicRoughness": {
+                "baseColorFactor": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                ],
+                "baseColorTexture": {
+                    "index": 0
+                },
+                "metallicFactor": 0.0,
+                "roughnessFactor": 1.0,
+                "metallicRoughnessTexture": {
+                    "index": 1
+                }
+            },
+            "emissiveFactor": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "normalTexture": {
+                "index": 2
+            },
+            "occlusionTexture": {
+                "index": 3
+            }
+        },
+        {
+            "name": "metal",
+            "pbrMetallicRoughness": {
+                "baseColorFactor": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                ],
+                "baseColorTexture": {
+                    "index": 4
+                },
+                "metallicFactor": 0.5,
+                "roughnessFactor": 0.5,
+                "metallicRoughnessTexture": {
+                    "index": 5
+                }
+            },
+            "emissiveFactor": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "normalTexture": {
+                "index": 6
+            },
+            "occlusionTexture": {
+                "index": 7
+            }
+        }
+    ],
+    "textures": [
+        {
+            "sampler": 0,
+            "source": 0
+        },
+        {
+            "sampler": 0,
+            "source": 1
+        },
+        {
+            "sampler": 0,
+            "source": 2
+        },
+        {
+            "sampler": 0,
+            "source": 3
+        },
+        {
+            "sampler": 0,
+            "source": 4
+        },
+        {
+            "sampler": 0,
+            "source": 5
+        },
+        {
+            "sampler": 0,
+            "source": 6
+        },
+        {
+            "sampler": 0,
+            "source": 7
+        }
+    ],
+    "images": [
+        {
+            "uri": "Asphalt_006_COLOR.jpg"
+        },
+        {
+            "uri": "Asphalt_006_ROUGH-Vynil_Padded_001_Metallic.jpg"
+        },
+        {
+            "uri": "Asphalt_006_NRM.jpg"
+        },
+        {
+            "uri": "Asphalt_006_OCC.jpg"
+        },
+        {
+            "uri": "Metal_Plate_028_basecolor.jpg"
+        },
+        {
+            "uri": "Metal_Plate_028_roughness-Metal_Plate_028_metallic.jpg"
+        },
+        {
+            "uri": "Metal_Plate_028_normal.jpg"
+        },
+        {
+            "uri": "Metal_Plate_028_ambientOcclusion.jpg"
+        }
+    ],
+    "samplers": [
+        {
+            "magFilter": 9729,
+            "minFilter": 9987,
+            "wrapS": 10497,
+            "wrapT": 10497
+        }
+    ],
+    "accessors": [
+        {
+            "name": "pCubeShape1#0/indices",
+            "bufferView": 0,
+            "byteOffset": 0,
+            "componentType": 5123,
+            "count": 1596,
+            "max": [
+                570
+            ],
+            "min": [
+                0
+            ],
+            "type": "SCALAR"
+        },
+        {
+            "name": "pCubeShape1#0/vertices/NORMAL",
+            "bufferView": 1,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 571,
+            "max": [
+                1.0,
+                1.0,
+                0.9999999403953552
+            ],
+            "min": [
+                -1.0,
+                -1.0,
+                -1.0
+            ],
+            "type": "VEC3"
+        },
+        {
+            "name": "pCubeShape1#0/vertices/POSITION",
+            "bufferView": 1,
+            "byteOffset": 6852,
+            "componentType": 5126,
+            "count": 571,
+            "max": [
+                19.606027603149419,
+                2.573917388916016,
+                8.776910781860352
+            ],
+            "min": [
+                -29.19679832458496,
+                2.032029390335083,
+                -18.618274688720704
+            ],
+            "type": "VEC3"
+        },
+        {
+            "name": "pCubeShape1#0/vertices/TANGENT",
+            "bufferView": 2,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 571,
+            "max": [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+            ],
+            "min": [
+                -0.006302828900516033,
+                -1.0,
+                -0.139035701751709,
+                1.0
+            ],
+            "type": "VEC4"
+        },
+        {
+            "name": "pCubeShape1#0/vertices/TEXCOORD_0",
+            "bufferView": 3,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 571,
+            "max": [
+                33.12723159790039,
+                17.80342292785645
+            ],
+            "min": [
+                -32.21331024169922,
+                -16.803421020507814
+            ],
+            "type": "VEC2"
+        },
+        {
+            "name": "pCubeShape1#1/indices",
+            "bufferView": 0,
+            "byteOffset": 3192,
+            "componentType": 5123,
+            "count": 2376,
+            "max": [
+                853
+            ],
+            "min": [
+                0
+            ],
+            "type": "SCALAR"
+        },
+        {
+            "name": "pCubeShape1#1/vertices/NORMAL",
+            "bufferView": 1,
+            "byteOffset": 13704,
+            "componentType": 5126,
+            "count": 854,
+            "max": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "min": [
+                -1.0,
+                -0.3145679533481598,
+                -1.0
+            ],
+            "type": "VEC3"
+        },
+        {
+            "name": "pCubeShape1#1/vertices/POSITION",
+            "bufferView": 1,
+            "byteOffset": 23952,
+            "componentType": 5126,
+            "count": 854,
+            "max": [
+                19.60602378845215,
+                2.687742948532105,
+                8.776910781860352
+            ],
+            "min": [
+                -29.196792602539064,
+                2.032029390335083,
+                -18.618274688720704
+            ],
+            "type": "VEC3"
+        },
+        {
+            "name": "pCubeShape1#1/vertices/TANGENT",
+            "bufferView": 2,
+            "byteOffset": 9136,
+            "componentType": 5126,
+            "count": 854,
+            "max": [
+                1.0,
+                1.0,
+                0.1493537873029709,
+                1.0
+            ],
+            "min": [
+                -0.999997615814209,
+                -1.0,
+                -0.943118453025818,
+                -1.0
+            ],
+            "type": "VEC4"
+        },
+        {
+            "name": "pCubeShape1#1/vertices/TEXCOORD_0",
+            "bufferView": 3,
+            "byteOffset": 4568,
+            "componentType": 5126,
+            "count": 854,
+            "max": [
+                534.8189697265625,
+                198.65594482421876
+            ],
+            "min": [
+                -534.3475341796875,
+                -197.65594482421876
+            ],
+            "type": "VEC2"
+        }
+    ],
+    "bufferViews": [
+        {
+            "name": "racetrack/data/indices-2",
+            "buffer": 0,
+            "byteOffset": 68400,
+            "byteLength": 7944,
+            "target": 34963
+        },
+        {
+            "name": "racetrack/data/vertices-12",
+            "buffer": 0,
+            "byteOffset": 22800,
+            "byteLength": 34200,
+            "byteStride": 12,
+            "target": 34962
+        },
+        {
+            "name": "racetrack/data/vertices-16",
+            "buffer": 0,
+            "byteOffset": 0,
+            "byteLength": 22800,
+            "byteStride": 16,
+            "target": 34962
+        },
+        {
+            "name": "racetrack/data/vertices-8",
+            "buffer": 0,
+            "byteOffset": 57000,
+            "byteLength": 11400,
+            "byteStride": 8,
+            "target": 34962
+        }
+    ],
+    "buffers": [
+        {
+            "name": "racetrack/data",
+            "byteLength": 76344,
+            "uri": "racetrack0.bin"
+        }
+    ]
+}

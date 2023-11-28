@@ -1,0 +1,258 @@
+{
+    "asset": {
+        "copyright": "(C)2023 firef",
+        "generator": "maya2glTF main fbbc95e5dc4d",
+        "version": "2.0"
+    },
+    "scenes": [
+        {
+            "nodes": [
+                0
+            ]
+        }
+    ],
+    "scene": 0,
+    "nodes": [
+        {
+            "name": "pPlane1",
+            "children": [
+                1
+            ],
+            "translation": [
+                -4.446516036987305,
+                2.425614356994629,
+                -2.947549819946289
+            ]
+        },
+        {
+            "name": "pPlane1:PIV",
+            "mesh": 0,
+            "translation": [
+                4.446516036987305,
+                -2.425614356994629,
+                2.947549819946289
+            ]
+        }
+    ],
+    "meshes": [
+        {
+            "name": "pPlaneShape1",
+            "extras": {
+                "targetNames": []
+            },
+            "primitives": [
+                {
+                    "attributes": {
+                        "NORMAL": 1,
+                        "POSITION": 2,
+                        "TANGENT": 3,
+                        "TEXCOORD_0": 4
+                    },
+                    "indices": 0,
+                    "mode": 4,
+                    "material": 0
+                }
+            ]
+        }
+    ],
+    "materials": [
+        {
+            "name": "GLSLShader10",
+            "pbrMetallicRoughness": {
+                "baseColorFactor": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                ],
+                "baseColorTexture": {
+                    "index": 0
+                },
+                "metallicFactor": 0.0,
+                "roughnessFactor": 0.5,
+                "metallicRoughnessTexture": {
+                    "index": 1
+                }
+            },
+            "emissiveFactor": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "normalTexture": {
+                "index": 2
+            },
+            "occlusionTexture": {
+                "index": 3
+            }
+        }
+    ],
+    "textures": [
+        {
+            "sampler": 0,
+            "source": 0
+        },
+        {
+            "sampler": 0,
+            "source": 1
+        },
+        {
+            "sampler": 0,
+            "source": 2
+        },
+        {
+            "sampler": 0,
+            "source": 3
+        }
+    ],
+    "images": [
+        {
+            "uri": "Arc_Pavement_001_basecolor.jpg"
+        },
+        {
+            "uri": "Arc_Pavement_001_roughness-Vynil_Padded_001_Metallic.jpg"
+        },
+        {
+            "uri": "Arc_Pavement_001_normal.jpg"
+        },
+        {
+            "uri": "Arc_Pavement_001_ambientOcclusion.jpg"
+        }
+    ],
+    "samplers": [
+        {
+            "magFilter": 9729,
+            "minFilter": 9987,
+            "wrapS": 10497,
+            "wrapT": 10497
+        }
+    ],
+    "accessors": [
+        {
+            "name": "pPlaneShape1#0/indices",
+            "bufferView": 0,
+            "byteOffset": 0,
+            "componentType": 5123,
+            "count": 600,
+            "max": [
+                120
+            ],
+            "min": [
+                0
+            ],
+            "type": "SCALAR"
+        },
+        {
+            "name": "pPlaneShape1#0/vertices/NORMAL",
+            "bufferView": 1,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 121,
+            "max": [
+                0.0,
+                1.0,
+                0.0
+            ],
+            "min": [
+                0.0,
+                1.0,
+                0.0
+            ],
+            "type": "VEC3"
+        },
+        {
+            "name": "pPlaneShape1#0/vertices/POSITION",
+            "bufferView": 1,
+            "byteOffset": 1452,
+            "componentType": 5126,
+            "count": 121,
+            "max": [
+                33.94590377807617,
+                2.425614356994629,
+                35.44486999511719
+            ],
+            "min": [
+                -42.83893585205078,
+                2.425614356994629,
+                -41.339969635009769
+            ],
+            "type": "VEC3"
+        },
+        {
+            "name": "pPlaneShape1#0/vertices/TANGENT",
+            "bufferView": 2,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 121,
+            "max": [
+                1.0,
+                0.0,
+                0.0,
+                1.0
+            ],
+            "min": [
+                1.0,
+                0.0,
+                0.0,
+                1.0
+            ],
+            "type": "VEC4"
+        },
+        {
+            "name": "pPlaneShape1#0/vertices/TEXCOORD_0",
+            "bufferView": 3,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 121,
+            "max": [
+                19.27537727355957,
+                19.27537727355957
+            ],
+            "min": [
+                -18.27537727355957,
+                -18.27537727355957
+            ],
+            "type": "VEC2"
+        }
+    ],
+    "bufferViews": [
+        {
+            "name": "floor/data/indices-2",
+            "buffer": 0,
+            "byteOffset": 5808,
+            "byteLength": 1200,
+            "target": 34963
+        },
+        {
+            "name": "floor/data/vertices-12",
+            "buffer": 0,
+            "byteOffset": 1936,
+            "byteLength": 2904,
+            "byteStride": 12,
+            "target": 34962
+        },
+        {
+            "name": "floor/data/vertices-16",
+            "buffer": 0,
+            "byteOffset": 0,
+            "byteLength": 1936,
+            "byteStride": 16,
+            "target": 34962
+        },
+        {
+            "name": "floor/data/vertices-8",
+            "buffer": 0,
+            "byteOffset": 4840,
+            "byteLength": 968,
+            "byteStride": 8,
+            "target": 34962
+        }
+    ],
+    "buffers": [
+        {
+            "name": "floor/data",
+            "byteLength": 7008,
+            "uri": "floor0.bin"
+        }
+    ]
+}

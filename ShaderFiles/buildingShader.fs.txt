@@ -1,0 +1,43 @@
+#version 330 core
+
+layout (location = 0) out vec4 FragColor;
+layout (location = 1) out vec4 BrightColor;
+
+struct Material {
+    sampler2D emission;
+}; 
+
+
+//out vec4 FragColor;
+//out vec4 BrightColor;
+in vec2 TexCoords;
+
+uniform sampler2D texture_diffuse1;
+//uniform DirLight light;
+uniform Material material;
+uniform float time;
+
+void main()
+{
+	/*Emission */
+    vec3 emission = vec3(0.0);
+    /*apply emission texture */
+    emission = texture(material.emission, TexCoords).rgb;
+    
+    /*some extra fun stuff with "time uniform" */
+    emission = texture(material.emission, TexCoords + vec2(0.0,time * 0.5)).rgb;   /*moving */
+    emission = emission * (sin(time) * 0.5 + 0.5) * 1.2;                     /*fading */
+    
+
+    //FragColor = texture(texture_diffuse1, TexCoords);
+	vec3 result = emission;
+	FragColor = vec4(result, 1.0); 
+
+	float brightness = dot(FragColor.rgb, vec3(0.2126, 0.7152, 0.0722));
+    if(brightness > 1)
+        BrightColor = vec4(FragColor.rgb, 1.0);
+    else
+        BrightColor = vec4(0.0, 0.0, 0.0, 1.0);
+
+	//FragColor = vec4(BrightColor.x, BrightColor.y, BrightColor.z, 1.0);
+}

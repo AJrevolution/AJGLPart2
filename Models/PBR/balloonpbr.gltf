@@ -1,0 +1,310 @@
+{
+    "asset": {
+        "copyright": "(C)2023 firef",
+        "generator": "maya2glTF main fbbc95e5dc4d",
+        "version": "2.0"
+    },
+    "scenes": [
+        {
+            "nodes": [
+                1,
+                0
+            ]
+        }
+    ],
+    "scene": 0,
+    "nodes": [
+        {
+            "name": "pSphere37",
+            "mesh": 0,
+            "translation": [
+                5.724470615386963,
+                10.011062622070313,
+                2.2103159427642824
+            ],
+            "scale": [
+                3.060420036315918,
+                3.060420036315918,
+                3.060420036315918
+            ]
+        },
+        {
+            "name": "pCube417",
+            "mesh": 1,
+            "translation": [
+                5.726366519927979,
+                6.318541526794434,
+                2.256590843200684
+            ],
+            "scale": [
+                0.4480333924293518,
+                0.4480333924293518,
+                0.4480333924293518
+            ]
+        }
+    ],
+    "meshes": [
+        {
+            "name": "pSphereShape37",
+            "extras": {
+                "targetNames": []
+            },
+            "primitives": [
+                {
+                    "attributes": {
+                        "NORMAL": 1,
+                        "POSITION": 2,
+                        "TANGENT": 3,
+                        "TEXCOORD_0": 4
+                    },
+                    "indices": 0,
+                    "mode": 4,
+                    "material": 0
+                }
+            ]
+        },
+        {
+            "name": "pCubeShape417",
+            "extras": {
+                "targetNames": []
+            },
+            "primitives": [
+                {
+                    "attributes": {
+                        "NORMAL": 6,
+                        "POSITION": 7,
+                        "TANGENT": 8,
+                        "TEXCOORD_0": 9
+                    },
+                    "indices": 5,
+                    "mode": 4,
+                    "material": 1
+                }
+            ]
+        }
+    ],
+    "materials": [
+        {
+            "name": "balloonpbr",
+            "pbrMetallicRoughness": {}
+        },
+        {
+            "name": "pbrwood",
+            "pbrMetallicRoughness": {}
+        }
+    ],
+    "accessors": [
+        {
+            "name": "pSphereShape37#0/indices",
+            "bufferView": 0,
+            "byteOffset": 0,
+            "componentType": 5123,
+            "count": 2280,
+            "max": [
+                438
+            ],
+            "min": [
+                0
+            ],
+            "type": "SCALAR"
+        },
+        {
+            "name": "pSphereShape37#0/vertices/NORMAL",
+            "bufferView": 1,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 439,
+            "max": [
+                0.9968528151512146,
+                0.9999961853027344,
+                0.9979393482208252
+            ],
+            "min": [
+                -0.9982709288597108,
+                -1.0,
+                -0.9985745549201964
+            ],
+            "type": "VEC3"
+        },
+        {
+            "name": "pSphereShape37#0/vertices/POSITION",
+            "bufferView": 1,
+            "byteOffset": 5268,
+            "componentType": 5126,
+            "count": 439,
+            "max": [
+                0.526012659072876,
+                0.33310335874557497,
+                0.5469629764556885
+            ],
+            "min": [
+                -0.5194679498672485,
+                -1.017747163772583,
+                -0.5200600624084473
+            ],
+            "type": "VEC3"
+        },
+        {
+            "name": "pSphereShape37#0/vertices/TANGENT",
+            "bufferView": 2,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 439,
+            "max": [
+                1.0,
+                0.0835551992058754,
+                0.9999843835830689,
+                1.0
+            ],
+            "min": [
+                -0.9999846816062928,
+                -0.11801578104496002,
+                -0.9999708533287048,
+                1.0
+            ],
+            "type": "VEC4"
+        },
+        {
+            "name": "pSphereShape37#0/vertices/TEXCOORD_0",
+            "bufferView": 3,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 439,
+            "max": [
+                5.739095211029053,
+                5.739094257354736
+            ],
+            "min": [
+                -4.739094734191895,
+                -4.739094257354736
+            ],
+            "type": "VEC2"
+        },
+        {
+            "name": "pCubeShape417#0/indices",
+            "bufferView": 0,
+            "byteOffset": 4560,
+            "componentType": 5123,
+            "count": 84,
+            "max": [
+                47
+            ],
+            "min": [
+                0
+            ],
+            "type": "SCALAR"
+        },
+        {
+            "name": "pCubeShape417#0/vertices/NORMAL",
+            "bufferView": 1,
+            "byteOffset": 10536,
+            "componentType": 5126,
+            "count": 48,
+            "max": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "min": [
+                -1.0,
+                -1.0,
+                -1.0
+            ],
+            "type": "VEC3"
+        },
+        {
+            "name": "pCubeShape417#0/vertices/POSITION",
+            "bufferView": 1,
+            "byteOffset": 11112,
+            "componentType": 5126,
+            "count": 48,
+            "max": [
+                0.5,
+                0.5000028610229492,
+                0.5
+            ],
+            "min": [
+                -0.4999961853027344,
+                -0.4999971389770508,
+                -0.5000009536743164
+            ],
+            "type": "VEC3"
+        },
+        {
+            "name": "pCubeShape417#0/vertices/TANGENT",
+            "bufferView": 2,
+            "byteOffset": 7024,
+            "componentType": 5126,
+            "count": 48,
+            "max": [
+                1.0,
+                1.0,
+                4.679999960899295e-7,
+                1.0
+            ],
+            "min": [
+                0.0,
+                -1.0,
+                -5.15000010636868e-7,
+                1.0
+            ],
+            "type": "VEC4"
+        },
+        {
+            "name": "pCubeShape417#0/vertices/TEXCOORD_0",
+            "bufferView": 3,
+            "byteOffset": 3512,
+            "componentType": 5126,
+            "count": 48,
+            "max": [
+                2.7872676849365236,
+                2.633751630783081
+            ],
+            "min": [
+                -1.7872676849365237,
+                -1.5478575229644776
+            ],
+            "type": "VEC2"
+        }
+    ],
+    "bufferViews": [
+        {
+            "name": "balloonpbr/data/indices-2",
+            "buffer": 0,
+            "byteOffset": 23376,
+            "byteLength": 4728,
+            "target": 34963
+        },
+        {
+            "name": "balloonpbr/data/vertices-12",
+            "buffer": 0,
+            "byteOffset": 7792,
+            "byteLength": 11688,
+            "byteStride": 12,
+            "target": 34962
+        },
+        {
+            "name": "balloonpbr/data/vertices-16",
+            "buffer": 0,
+            "byteOffset": 0,
+            "byteLength": 7792,
+            "byteStride": 16,
+            "target": 34962
+        },
+        {
+            "name": "balloonpbr/data/vertices-8",
+            "buffer": 0,
+            "byteOffset": 19480,
+            "byteLength": 3896,
+            "byteStride": 8,
+            "target": 34962
+        }
+    ],
+    "buffers": [
+        {
+            "name": "balloonpbr/data",
+            "byteLength": 28104,
+            "uri": "balloonpbr0.bin"
+        }
+    ]
+}

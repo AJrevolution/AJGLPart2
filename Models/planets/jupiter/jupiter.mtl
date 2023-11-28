@@ -1,0 +1,185 @@
+newmtl initialShadingGroup
+illum 4
+Kd 0.50 0.50 0.50
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+newmtl phong1SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd 2k_earth_daymap.jpg
+bump 2k_earth_normal_map.tif -bm 1
+Ni 1.00
+Ks 0.04 0.04 0.04
+Ns 18.00
+newmtl phong2SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd Leather_005_baseColor.jpg
+bump Leather_005_normal.jpg -bm 1
+Ni 1.00
+Ks 0.66 0.66 0.66
+Ns 18.00
+newmtl phong3SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd Wood_021_basecolor.jpg
+bump Wood_021_normal.jpg -bm 1
+Ni 1.00
+Ks 0.10 0.10 0.10
+Ns 18.00
+newmtl phong4SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd Metal_003_Base_Color.png
+bump Metal_003_Normal.png -bm 1
+Ni 1.00
+Ks 0.54 0.54 0.54
+Ns 18.00
+newmtl phong5SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd screen.jpg
+bump screennorm.jpg -bm 1
+Ni 1.00
+Ks 0.50 0.50 0.50
+Ns 18.00
+newmtl phong6SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd Metal_Plate_014_basecolor.jpg
+bump Metal_Plate_014_normal.jpg -bm 1
+Ni 1.00
+Ks 0.50 0.50 0.50
+Ns 18.00
+newmtl phong7SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd Plastic_Weave_001_basecolor.jpg
+bump Plastic_Weave_001_normal.jpg -bm 1
+Ni 1.00
+Ks 0.50 0.50 0.50
+Ns 18.00
+newmtl phong8SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd Vynil_Padded_001_Base_Color.jpg
+bump Vynil_Padded_001_Normal.jpg -bm 1
+Ni 1.00
+Ks 0.86 0.86 0.86
+Ns 18.00
+newmtl phong9SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd Metal_Plate_018_basecolor.jpg
+bump Metal_Plate_018_normal.jpg -bm 1
+Ni 1.00
+Ks 0.50 0.50 0.50
+Ns 18.00
+newmtl phong10SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd 2k_neptune.jpg
+bump NormalMap (1).jpg -bm 1
+Ni 1.00
+Ks 0.06 0.06 0.06
+Ns 18.00
+newmtl phong11SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd 2k_saturn.jpg
+bump NormalMap.jpg
+Ni 1.00
+Ks 0.00 0.00 0.00
+Ns 18.00
+newmtl phong12SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd 2k_mercury.jpg
+bump NormalMap (2).jpg 
+Ni 1.00
+Ks 0.05 0.05 0.05
+Ns 18.00
+newmtl phong13SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd Asphalt_001_COLOR.jpg
+bump Asphalt_001_NRM.jpg -bm 1
+Ni 1.00
+Ks 0.03 0.03 0.03
+Ns 18.00
+newmtl phong14SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd Arc_Pavement_001_basecolor.jpg
+bump Arc_Pavement_001_normal.jpg -bm 1
+Ni 1.00
+Ks 0.32 0.32 0.32
+Ns 18.00
+newmtl phong16SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd Metal_Plate_028_basecolor.jpg
+bump Metal_Plate_028_normal.jpg -bm 1
+Ni 1.00
+Ks 0.50 0.50 0.50
+Ns 18.00
+newmtl phong17SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd chess.jpg
+Ni 1.00
+Ks 0.03 0.03 0.03
+Ns 18.00
+newmtl phong19SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd ajtrackjpeg.jpg
+bump ajtrackjpegnormal.jpg -bm 1
+Ni 1.00
+Ks 0.36 0.36 0.36
+Ns 18.00
+newmtl phong20SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd Quartz_002_COLOR.jpg
+bump Quartz_002_NORM.jpg -bm 1
+Ni 1.00
+Ks 0.50 0.50 0.50
+Ns 18.00

@@ -1,0 +1,442 @@
+{
+    "asset": {
+        "copyright": "(C)2023 firef",
+        "generator": "maya2glTF main fbbc95e5dc4d",
+        "version": "2.0"
+    },
+    "scenes": [
+        {
+            "nodes": [
+                2,
+                0
+            ]
+        }
+    ],
+    "scene": 0,
+    "nodes": [
+        {
+            "name": "pSphere37",
+            "children": [
+                1
+            ],
+            "translation": [
+                5.734485626220703,
+                8.96341323852539,
+                2.251483201980591
+            ]
+        },
+        {
+            "name": "pSphere37:PIV",
+            "mesh": 0,
+            "translation": [
+                -5.734485626220703,
+                -8.96341323852539,
+                -2.251483201980591
+            ]
+        },
+        {
+            "name": "pCube417",
+            "children": [
+                3
+            ],
+            "translation": [
+                5.726367473602295,
+                6.31854248046875,
+                2.256590604782105
+            ]
+        },
+        {
+            "name": "pCube417:PIV",
+            "mesh": 1,
+            "translation": [
+                -5.726367473602295,
+                -6.31854248046875,
+                -2.256590604782105
+            ]
+        }
+    ],
+    "meshes": [
+        {
+            "name": "pSphereShape37",
+            "extras": {
+                "targetNames": []
+            },
+            "primitives": [
+                {
+                    "attributes": {
+                        "NORMAL": 1,
+                        "POSITION": 2,
+                        "TANGENT": 3,
+                        "TEXCOORD_0": 4
+                    },
+                    "indices": 0,
+                    "mode": 4,
+                    "material": 0
+                }
+            ]
+        },
+        {
+            "name": "pCubeShape417",
+            "extras": {
+                "targetNames": []
+            },
+            "primitives": [
+                {
+                    "attributes": {
+                        "NORMAL": 6,
+                        "POSITION": 7,
+                        "TANGENT": 8,
+                        "TEXCOORD_0": 9
+                    },
+                    "indices": 5,
+                    "mode": 4,
+                    "material": 1
+                }
+            ]
+        }
+    ],
+    "materials": [
+        {
+            "name": "GLSLShader8",
+            "pbrMetallicRoughness": {
+                "baseColorFactor": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                ],
+                "baseColorTexture": {
+                    "index": 0
+                },
+                "metallicFactor": 0.5,
+                "roughnessFactor": 0.5,
+                "metallicRoughnessTexture": {
+                    "index": 1
+                }
+            },
+            "emissiveFactor": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "normalTexture": {
+                "index": 2
+            },
+            "occlusionTexture": {
+                "index": 3
+            }
+        },
+        {
+            "name": "GLSLShader9",
+            "pbrMetallicRoughness": {
+                "baseColorFactor": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                ],
+                "baseColorTexture": {
+                    "index": 4
+                },
+                "metallicFactor": 0.5,
+                "roughnessFactor": 0.5,
+                "metallicRoughnessTexture": {
+                    "index": 5
+                }
+            },
+            "emissiveFactor": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "normalTexture": {
+                "index": 6
+            },
+            "occlusionTexture": {
+                "index": 7
+            }
+        }
+    ],
+    "textures": [
+        {
+            "sampler": 0,
+            "source": 0
+        },
+        {
+            "sampler": 0,
+            "source": 1
+        },
+        {
+            "sampler": 0,
+            "source": 2
+        },
+        {
+            "sampler": 0,
+            "source": 3
+        },
+        {
+            "sampler": 0,
+            "source": 4
+        },
+        {
+            "sampler": 0,
+            "source": 5
+        },
+        {
+            "sampler": 0,
+            "source": 6
+        },
+        {
+            "sampler": 0,
+            "source": 7
+        }
+    ],
+    "images": [
+        {
+            "uri": "Vynil_Padded_001_Base_Color.jpg"
+        },
+        {
+            "uri": "Vynil_Padded_001_Roughness-Vynil_Padded_001_Metallic.jpg"
+        },
+        {
+            "uri": "Vynil_Padded_001_Normal.jpg"
+        },
+        {
+            "uri": "Vynil_Padded_001_ambientOcclusion.jpg"
+        },
+        {
+            "uri": "Wood_021_basecolor.jpg"
+        },
+        {
+            "uri": "Wood_021_roughness-Vynil_Padded_001_Metallic.jpg"
+        },
+        {
+            "uri": "Wood_021_normal.jpg"
+        },
+        {
+            "uri": "Wood_021_ambientOcclusion.jpg"
+        }
+    ],
+    "samplers": [
+        {
+            "magFilter": 9729,
+            "minFilter": 9987,
+            "wrapS": 10497,
+            "wrapT": 10497
+        }
+    ],
+    "accessors": [
+        {
+            "name": "pSphereShape37#0/indices",
+            "bufferView": 0,
+            "byteOffset": 0,
+            "componentType": 5123,
+            "count": 2280,
+            "max": [
+                438
+            ],
+            "min": [
+                0
+            ],
+            "type": "SCALAR"
+        },
+        {
+            "name": "pSphereShape37#0/vertices/NORMAL",
+            "bufferView": 1,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 439,
+            "max": [
+                0.9968528151512146,
+                0.9999962449073792,
+                0.9979394674301148
+            ],
+            "min": [
+                -0.998270869255066,
+                -1.0,
+                -0.9985746145248412
+            ],
+            "type": "VEC3"
+        },
+        {
+            "name": "pSphereShape37#0/vertices/POSITION",
+            "bufferView": 1,
+            "byteOffset": 5268,
+            "componentType": 5126,
+            "count": 439,
+            "max": [
+                7.334290027618408,
+                11.030498504638672,
+                3.8842525482177736
+            ],
+            "min": [
+                4.13468074798584,
+                6.896328926086426,
+                0.6187137961387634
+            ],
+            "type": "VEC3"
+        },
+        {
+            "name": "pSphereShape37#0/vertices/TANGENT",
+            "bufferView": 2,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 439,
+            "max": [
+                1.0,
+                0.08355466276407242,
+                0.9999843835830689,
+                1.0
+            ],
+            "min": [
+                -0.9999847412109376,
+                -0.118015855550766,
+                -0.9999709129333496,
+                1.0
+            ],
+            "type": "VEC4"
+        },
+        {
+            "name": "pSphereShape37#0/vertices/TEXCOORD_0",
+            "bufferView": 3,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 439,
+            "max": [
+                5.739095211029053,
+                5.739094257354736
+            ],
+            "min": [
+                -4.739094734191895,
+                -4.739094257354736
+            ],
+            "type": "VEC2"
+        },
+        {
+            "name": "pCubeShape417#0/indices",
+            "bufferView": 0,
+            "byteOffset": 4560,
+            "componentType": 5123,
+            "count": 84,
+            "max": [
+                47
+            ],
+            "min": [
+                0
+            ],
+            "type": "SCALAR"
+        },
+        {
+            "name": "pCubeShape417#0/vertices/NORMAL",
+            "bufferView": 1,
+            "byteOffset": 10536,
+            "componentType": 5126,
+            "count": 48,
+            "max": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "min": [
+                -1.0,
+                -1.0,
+                -1.0
+            ],
+            "type": "VEC3"
+        },
+        {
+            "name": "pCubeShape417#0/vertices/POSITION",
+            "bufferView": 1,
+            "byteOffset": 11112,
+            "componentType": 5126,
+            "count": 48,
+            "max": [
+                5.950383186340332,
+                6.542559146881104,
+                2.480607509613037
+            ],
+            "min": [
+                5.502351760864258,
+                6.0945258140563969,
+                2.032573699951172
+            ],
+            "type": "VEC3"
+        },
+        {
+            "name": "pCubeShape417#0/vertices/TANGENT",
+            "bufferView": 2,
+            "byteOffset": 7024,
+            "componentType": 5126,
+            "count": 48,
+            "max": [
+                1.0,
+                1.0,
+                0.0000026449999950273197,
+                1.0
+            ],
+            "min": [
+                0.0,
+                -1.0,
+                -0.0000026590000743453858,
+                1.0
+            ],
+            "type": "VEC4"
+        },
+        {
+            "name": "pCubeShape417#0/vertices/TEXCOORD_0",
+            "bufferView": 3,
+            "byteOffset": 3512,
+            "componentType": 5126,
+            "count": 48,
+            "max": [
+                2.7872676849365236,
+                2.633751630783081
+            ],
+            "min": [
+                -1.7872676849365237,
+                -1.5478575229644776
+            ],
+            "type": "VEC2"
+        }
+    ],
+    "bufferViews": [
+        {
+            "name": "balloonpbr/data/indices-2",
+            "buffer": 0,
+            "byteOffset": 23376,
+            "byteLength": 4728,
+            "target": 34963
+        },
+        {
+            "name": "balloonpbr/data/vertices-12",
+            "buffer": 0,
+            "byteOffset": 7792,
+            "byteLength": 11688,
+            "byteStride": 12,
+            "target": 34962
+        },
+        {
+            "name": "balloonpbr/data/vertices-16",
+            "buffer": 0,
+            "byteOffset": 0,
+            "byteLength": 7792,
+            "byteStride": 16,
+            "target": 34962
+        },
+        {
+            "name": "balloonpbr/data/vertices-8",
+            "buffer": 0,
+            "byteOffset": 19480,
+            "byteLength": 3896,
+            "byteStride": 8,
+            "target": 34962
+        }
+    ],
+    "buffers": [
+        {
+            "name": "balloonpbr/data",
+            "byteLength": 28104,
+            "uri": "balloonpbr0.bin"
+        }
+    ]
+}

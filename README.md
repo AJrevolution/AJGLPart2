@@ -1,6 +1,6 @@
 # AJGLPart2
 
-PLEASE NOTE: i have not tested pulling this repo on a different machine yet, there should be no absolute paths however, so hopefully would work? 
+PLEASE NOTE: i have not tested pulling this repo on a different machine yet, was built for x64 machines
 
 AJGL.cpp for main
 

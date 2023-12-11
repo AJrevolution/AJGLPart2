@@ -37,6 +37,12 @@ void WindowController::processInput(float deltaTime)
 void WindowController::framebuffer_size_callback(GLFWwindow* window, int width, int height)
 {
     glViewport(0, 0, width, height);
+
+    WindowController* controller = getController(window);
+    for (auto* observer : controller->sizeChangeObservers)
+    {
+        observer->onWindowSizeChanged(width, height);
+    }
 }
 
 void WindowController::mouse_callback(GLFWwindow* window, double xpos, double ypos)
@@ -67,4 +73,9 @@ void WindowController::scroll_callback(GLFWwindow* window, double xoffset, doubl
 WindowController* WindowController::getController(GLFWwindow* window)
 {
     return static_cast<WindowController*>(glfwGetWindowUserPointer(window));
+}
+
+void WindowController::addWindowSizeChangeObserver(IWindowSizeChangeObserver* observer)
+{
+    sizeChangeObservers.push_back(observer);
 }

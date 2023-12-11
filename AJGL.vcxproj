@@ -167,6 +167,7 @@
     <ClInclude Include="Camera.h" />
     <ClInclude Include="CubeMap.h" />
     <ClInclude Include="Framebuffer.h" />
+    <ClInclude Include="IWindowSizeChangeObserver.h" />
     <ClInclude Include="Mesh.h" />
     <ClInclude Include="Model.h" />
     <ClInclude Include="OpenGLUtils.h" />
@@ -178,6 +179,7 @@
     <ClInclude Include="skyboxdata.h" />
     <ClInclude Include="stb_image.h" />
     <ClInclude Include="stdafx.h" />
+    <ClInclude Include="SuperSamplingRenderer.h" />
     <ClInclude Include="targetver.h" />
     <ClInclude Include="Texture.h" />
     <ClInclude Include="WindowController.h" />
@@ -201,6 +203,7 @@
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
     </ClCompile>
+    <ClCompile Include="SuperSamplingRenderer.cpp" />
     <ClCompile Include="WindowController.cpp" />
   </ItemGroup>
   <ItemGroup>

@@ -68,4 +68,8 @@ private:
     void initialiseCaptureViews();
     void initialiseRenderBuffer(GLsizei width, GLsizei height);
 
+    //Viewport management for SSAA
+    GLint savedViewport[4];
+    void saveViewport();
+    void restoreViewport();
 };

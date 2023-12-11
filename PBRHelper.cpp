@@ -96,6 +96,8 @@ void PBRHelper::renderEnvironment(const glm::mat4& viewMatrix, const glm::mat4& 
 
 void PBRHelper::convertEquirectangularToCubemap(const std::string& hdrPath)
 {
+    saveViewport();
+
     //int currentFBO;
     //glGetIntegerv(GL_FRAMEBUFFER_BINDING, &currentFBO);
     //std::cout << "Current bound FBO before binding captureFBO: " << currentFBO << std::endl;
@@ -124,15 +126,21 @@ void PBRHelper::convertEquirectangularToCubemap(const std::string& hdrPath)
     captureFBO->unbind();
 
     envCubeMap.generateMipmaps();
+
+    restoreViewport();
 }
 
 void PBRHelper::generateIrradianceMap()
 {
+    saveViewport();
+
     irradianceShader.use();
     irradianceShader.setInt("environmentMap", 0);
     irradianceShader.setMat4("projection", glm::perspective(glm::radians(90.0f), 1.0f, 0.1f, 10.0f));
     envCubeMap.bind(GL_TEXTURE0);
+
     glViewport(0, 0, 32, 32);
+
     captureFBO->bind();
     glFramebufferRenderbuffer(GL_FRAMEBUFFER, GL_DEPTH_ATTACHMENT, GL_RENDERBUFFER, captureRBO);
     for (unsigned int i = 0; i < 6; ++i)
@@ -151,10 +159,13 @@ void PBRHelper::generateIrradianceMap()
     
     iblTextures.irradianceMap = irradianceMap.getID();
 
+    restoreViewport();
 }
 
 void PBRHelper::generatePrefilterMap()
 {
+    saveViewport();
+
     preFilterShader.use();
     preFilterShader.setInt("environmentMap", 0);
     preFilterShader.setMat4("projection", glm::perspective(glm::radians(90.0f), 1.0f, 0.1f, 10.0f));
@@ -186,10 +197,14 @@ void PBRHelper::generatePrefilterMap()
     std::cout << "Prefilter Map Texture ID: " << prefilterMap.getID() << std::endl;
 
     iblTextures.prefilterMap = prefilterMap.getID();
+
+    restoreViewport();
 }
 
 void PBRHelper::generateBRDFLUT()
 {
+    saveViewport();
+
     BRDFShader.use();
 
     // Create and configure the BRDF LUT texture
@@ -207,6 +222,8 @@ void PBRHelper::generateBRDFLUT()
 
     // Store the BRDF LUT texture ID in IBLTextures
     iblTextures.brdfLUTTexture = brdfLUTTexture.getID();
+
+    restoreViewport();
 }
 
 const IBLTextures& PBRHelper::getIBLTextures() const
@@ -232,4 +249,14 @@ const GLuint PBRHelper::getPrefilterMapID() const
 const GLuint PBRHelper::getBRDFLUTTextureID() const
 {
     return brdfLUTTexture.getID();
+}
+
+void PBRHelper::saveViewport()
+{
+    glGetIntegerv(GL_VIEWPORT, savedViewport);
+}
+
+void PBRHelper::restoreViewport()
+{
+    glViewport(savedViewport[0], savedViewport[1], savedViewport[2], savedViewport[3]);
 }

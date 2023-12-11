@@ -38,16 +38,19 @@ Framebuffer& Framebuffer::operator=(Framebuffer&& other) noexcept
 void Framebuffer::bind() const
 {
     glBindFramebuffer(GL_FRAMEBUFFER, fbo);
+    CHECK_GL_ERROR("glBindFramebuffer(GL_FRAMEBUFFER, fbo);");
 }
 
 void Framebuffer::unbind() const
 {
     glBindFramebuffer(GL_FRAMEBUFFER, 0);
+    CHECK_GL_ERROR("glBindFramebuffer(GL_FRAMEBUFFER, 0);");
 }
 
 void Framebuffer::attachTexture(GLuint textureID, GLenum attachmentType, GLenum texTarget, GLint mipLevel) const
 {
     glFramebufferTexture2D(GL_FRAMEBUFFER, attachmentType, texTarget, textureID, mipLevel);
+    CHECK_GL_ERROR("glFramebufferTexture2D(GL_FRAMEBUFFER, attachmentType, texTarget, textureID, mipLevel);");
 }
 
 void Framebuffer::attachRenderBuffer(GLuint renderBufferID, GLenum attachmentType) const

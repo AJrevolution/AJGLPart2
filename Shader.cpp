@@ -195,6 +195,7 @@ GLint Shader::getUniformLocation(const std::string& name) const
 		return uniformLocationCache[name];
 	}
 
+
 	//If not get the location and cache it
 	GLint location = glGetUniformLocation(ID, name.c_str());
 	if (location == -1)

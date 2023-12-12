@@ -1,9 +1,12 @@
 #include "ResourceManager.h"
 
-#include <glad/glad.h>
+
 #include <iostream>
 #include "Shader.h"
 #include "OpenGLUtils.h"
+
+GLfloat ResourceManager::maxAnisotropy = 0.0f;
+
 Texture ResourceManager::getTexture(const std::string& path, const std::string& directory,aiTextureType type, bool isHDR)
 {
     // Check if the texture is already loaded
@@ -77,6 +80,11 @@ Texture ResourceManager::loadTextureFromFile(const std::string& path, const std:
     glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MIN_FILTER, GL_LINEAR_MIPMAP_LINEAR);
     glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MAG_FILTER, GL_LINEAR);
 
+    // Apply anisotropic filtering if supported
+    if (maxAnisotropy > 0.0f)
+    {
+        glTexParameterf(GL_TEXTURE_2D, GL_TEXTURE_MAX_ANISOTROPY_EXT, maxAnisotropy);
+    }
 
     Texture texture;
     texture.id = textureID;
@@ -106,6 +114,13 @@ unsigned int ResourceManager::CreateDefaultTexture(unsigned char r, unsigned cha
     return textureID;
 }
 
+void ResourceManager::InitMaxAnisotropy()
+{
+    if (GLAD_GL_EXT_texture_filter_anisotropic)
+    {
+        glGetFloatv(GL_MAX_TEXTURE_MAX_ANISOTROPY_EXT, &maxAnisotropy);
+    }
+}
 
 TextureType ResourceManager::aiTextureTypeToTextureType(aiTextureType type)
 {

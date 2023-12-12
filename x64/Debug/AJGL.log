@@ -2,6 +2,5 @@
   pbrmaterial.h is deprecated. Please update to PBR materials in materials.h and glTF-specific items in GltfMaterial.h
   The contents of <filesystem> are available only with C++17 or later.
 C:\Users\firef\Documents\CodeDump\AJGL-866e9ea457f5bb9ac47092ebd06df0653fbf575e\AJGL-866e9ea457f5bb9ac47092ebd06df0653fbf575e\Graphics\AJGL\AJGL.cpp(48,21): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
-C:\Users\firef\Documents\CodeDump\AJGL-866e9ea457f5bb9ac47092ebd06df0653fbf575e\AJGL-866e9ea457f5bb9ac47092ebd06df0653fbf575e\Graphics\AJGL\AJGL.cpp(174,29): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
-LINK : warning LNK4098: defaultlib 'MSVCRT' conflicts with use of other libs; use /NODEFAULTLIB:library
+C:\Users\firef\Documents\CodeDump\AJGL-866e9ea457f5bb9ac47092ebd06df0653fbf575e\AJGL-866e9ea457f5bb9ac47092ebd06df0653fbf575e\Graphics\AJGL\AJGL.cpp(177,29): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
   AJGL.vcxproj -> C:\Users\firef\Documents\CodeDump\AJGL-866e9ea457f5bb9ac47092ebd06df0653fbf575e\AJGL-866e9ea457f5bb9ac47092ebd06df0653fbf575e\Graphics\x64\Debug\AJGL.exe
